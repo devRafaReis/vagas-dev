@@ -2,8 +2,9 @@ const express = require('express');
 const router = express.Router();
 const Job = require('../models/Job')
 
+// rota de teste
 router.get('/test', (req,res) => {
-    res.send('det certo')
+    res.send('deu certo')
 })
 
 // add job via post
